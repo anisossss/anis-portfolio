@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import audio from "../../../public/audio/audio.mp3";
+//import audio from "../../../public/audio/audio.mp3";
 
 const SoundBar = () => {
   const soundBarEl = useRef(null);
@@ -26,7 +26,7 @@ const SoundBar = () => {
       <span></span>
       <span></span>
       <span></span>
-      <audio ref={soundBarEl} src={audio} loop preload="auto" />
+      {/* <audio ref={soundBarEl} src={audio} loop preload="auto" /> */}
     </div>
   );
 };
