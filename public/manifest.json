@@ -1,0 +1,22 @@
+{
+  "theme_color": "#7000FF",
+  "background_color": "#120E16",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Portfolio | Anis Khalef",
+  "short_name": "Anis Khalef",
+  "description": "Anis Khalef's Portfolio Website.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
