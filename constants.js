@@ -2,8 +2,8 @@ export const METADATA = {
   title: "Portfolio | Anis Khalef",
   description:
     "Anis Khalef is a Full Stack Developer from Tunisia, interested in crafting beautiful and functional applications.",
-  siteUrl: "https://AnisKhalef.com/",
-  twitterHandle: "@Anis731",
+  siteUrl: "https://anis-portfolio.vercel.app/",
+  twitterHandle: "",
 };
 
 export const MENULINKS = [
@@ -58,7 +58,6 @@ export const SKILLS = {
     "javascript",
     "typescript",
     "sass",
-    "python",
     "moralis",
     "stripe",
     "thirdweb",
@@ -83,41 +82,35 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://Anis73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
-  },
-  {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://Anis73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
-  },
-  {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    name: "Kitchen Savvy",
+    image: "/projects/kitchensavvy.png",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://Anis73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+      "Say goodbye to mealtime boredom and hello to endless culinary possibilities in your kitchen",
+    gradient: ["#f0ceff", "#808080"],
+    url: "https://kitchen-savvy.com",
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/Anis73/tesla",
-    tech: ["react"],
+    name: "ProlificSEO",
+    image: "/projects/prolificseo.png",
+    description:
+      "Unlock the full potential of your SEO and content marketing with our AI-powered tool.",
+    gradient: ["#808080", "#808080"],
+    url: "https://www.prolificseo.com/",
+  },
+  {
+    name: "AINEXIM",
+    image: "/projects/a.png",
+    description:
+      "Revolutionize Your Online Work Experience with Immersive Interfaces",
+    gradient: ["#808080", "#808080"],
+    url: "https://ainexim.com/",
+  },
+  {
+    name: "SUPRTHREADS",
+    image: "/projects/suprthreads.png",
+    description: "Stand Out on Twitter with AI-Powered Thread Generator",
+    gradient: ["#808080", "#808080"],
+    url: "https://www.suprthreads.com/",
   },
 ];
 

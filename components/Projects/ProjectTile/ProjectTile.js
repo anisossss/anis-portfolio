@@ -47,33 +47,9 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           alt="project"
           className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
         />
-        <Image
-          placeholder="blur"
-          blurDataURL={blurImage}
-          src={image}
-          alt={name}
-          layout="fill"
-          className={`${styles.projectImage} z-0`}
-        />
-        <div
-          className="absolute top-0 left-0 w-full h-20"
-          style={{
-            background: `linear-gradient(180deg, ${gradient[0]} 0%, rgba(0,0,0,0) 100%)`,
-          }}
-        ></div>
-        <div
-          className="absolute bottom-0 left-0 w-full h-32"
-          style={{
-            background: `linear-gradient(0deg, ${gradient[0]} 10%, rgba(0,0,0,0) 100%)`,
-          }}
-        ></div>
-        <h1
-          className="font-medium text-3xl sm:text-4xl z-10 pl-2 transform-gpu"
-          style={{ transform: "translateZ(3rem)" }}
-        >
-          {name}
-        </h1>
-        <div
+        <Image src={image} alt={name} layout="fill" />
+
+        {/* <div
           className={`
             ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
           `}
@@ -90,13 +66,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
               />
             ))}
           </div>
-        </div>
-        <h2
-          className="text-lg z-10 tracking-wide font-medium text-white transform-gpu"
-          style={{ transform: "translateZ(0.8rem)" }}
-        >
-          {description}
-        </h2>
+        </div> */}
       </div>
     </a>
   );
