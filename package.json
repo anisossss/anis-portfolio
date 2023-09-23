@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
+    "@vercel/analytics": "^1.0.2",
     "bad-words": "^3.0.4",
     "gsap": "^3.8.0",
     "lottie-web": "^5.8.1",

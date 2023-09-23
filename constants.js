@@ -33,7 +33,7 @@ export const TYPED_STRINGS = [
   "A pragmatic Full Stack Developer",
   "I build things for the web",
   "I create aesthetic and modern apps",
-  "I build Web3.0 dApps"
+  "I build Web3.0 dApps",
 ];
 
 export const SOCIAL_LINKS = [
@@ -49,14 +49,6 @@ export const SOCIAL_LINKS = [
     name: "github",
     url: "https://github.com/anisossss",
   },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/aniskhalef/",
-  },
-  {
-    name: "twitter",
-    url: "#",
-  },
 ];
 
 export const SKILLS = {
@@ -69,7 +61,7 @@ export const SKILLS = {
     "python",
     "moralis",
     "stripe",
-    "thirdweb"
+    "thirdweb",
   ],
   librariesAndFrameworks: [
     "react",
@@ -82,16 +74,11 @@ export const SKILLS = {
     "gsap",
     "framer",
     "spring",
-    "three"
+    "three",
   ],
-  databases: [
-    "mysql",
-    "mongodb",
-    "firebase",
-  ],
+  databases: ["mysql", "mongodb", "firebase"],
   other: ["nodejs", "postman", "nginx", "git", "gitlab"],
   softwares: ["xd", "ps"],
-
 };
 
 export const PROJECTS = [
@@ -118,7 +105,7 @@ export const PROJECTS = [
     image: "/projects/inshorts.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
-    "Conversational Voice Controlled React News Application using Alan AI 🎙",
+      "Conversational Voice Controlled React News Application using Alan AI 🎙",
     gradient: ["#000066", "#6699FF"],
     url: "https://Anis73-inshorts.netlify.app/",
     tech: ["react", "chakra-ui", "alan"],
@@ -147,7 +134,6 @@ export const WORK = [
     ],
     url: "https://duetodata.com/",
   },
-
 ];
 
 export const GTAG = "G-";
